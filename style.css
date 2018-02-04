@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+* body {
+    font: 0.8em Times, Arial, Sans-Serif;
+    line-height: 1.8em;
+    background: #000099 url(img/indtextb.jpg) repeat;
+    color: #000099;
+}
+
+a {
+    color: #000099;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 2em;
+    margin: 0 0 10px;
+    padding: 10px 0 3px;
+    font-family: Verdana;
+}
+
+h3 {
+    padding-left: 10px;
+    color: #fff;
+    font-size: 1em;
+    height: 24px;
+    line-height: 24px;
+}
+
+ul {
+    padding: 0;
+    margin: 0 0 10px;
+}
+
+li {
+    list-style-type: none;
+}
+
+p {
+    margin: 5px 0 10px 0;
+}
+
+img {
+    border: none;
+}
+
+#header {
+    background: #000099 url(img/trucks/header.png);
+    height: 180px;
+    width: 100%;
+    position: relative;
+
+}
+
+#header h1 {
+    font-size: 30px;
+    font-weight: 100;
+    letter-spacing: -1px;
+    padding: 22px 0 5px 10px;
+}
+
+#header h1 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#header h1 a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+#header h2 {
+    color: #eee;
+    font-size: 19px;
+    font-weight: 100;
+    padding: 0 0 0 11px;
+    letter-spacing: -1px;
+    line-height: 12px;
+}
+
+.logo {
+    float: left;
+}
+
+.search {
+    margin-left: 0 auto;
+    float: right;
+    color: white;
+    padding: 15px;
+}
+
+#wrap {
+    padding-left: -150px;
+    padding: 10px 10px 3px 10px;
+    width: 56.23%;
+    margin: 20px auto;
+    background: #3399CC;
+}
+
+@media screen and (max-width: 768px)
+{
+    #wrap{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 500px)
+{
+    #wrap{
+        width: 90%;
+    }
+    
+    .map{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+#left {
+    float: left;
+    width: 200px;
+    background: #CCCCCC;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border: 1px dotted #CCCCCC;
+    border-radius: 10px;
+}
+
+.articles{
+    float: right;
+}
+
+#left ul {
+    padding: 5px 10px 10px 10px;
+    margin: 0;
+}
+
+#left li a:hover,
+#left li.active > a {
+    color: white;
+    background: #CCCCCC;
+    text-decoration: underline;
+}
+
+#left ul li ul {
+    display: none;
+    top: 47px;
+    margin: 0;
+    padding-top: 6px;
+}
+
+#left ul li:hover ul,
+#left ul li.active ul {
+    display: block;
+}
+
+#right {
+    margin-bottom: 10px;
+    float: right;   
+    width: 68.7%;
+    padding: 0 10px 10px 10px;
+    margin-top: 10px;
+}
+
+.category {
+    border-bottom: 2px solid #000099;
+    margin-bottom: 20px;
+}
+
+.product {
+    margin-bottom: 20px;
+    background: #CCCCCC;
+    height: 260px;
+    border-radius: 10px;
+}
+
+.product p {
+    padding-left: 10px;
+}
+
+.product h2 {
+    padding-left: 10px;
+}
+.product img{
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.information{
+    color: #3399CC;
+    text-decoration: underline;
+}
+
+.clearfix {
+    float: left;
+}
+
+.clearfix::after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.login {
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.login label {
+    float: left;
+    font-size: 0.8em;
+}
+
+#pass{
+    margin-left: 23px;
+}
+
+#login{
+    margin-left: 70px;
+}
+
+#footer {
+    font-size: 11px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    padding: 10px 5px;
+}
